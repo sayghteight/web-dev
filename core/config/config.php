@@ -2,23 +2,15 @@
 
 
 // Configuración website
-	$config['pageTitle'] = 'JadePTR';
+	$config['pageTitle'] = 'Jade Core';
 	$config['url'] = 'http://jade-ptr.tk'; # Whitout slash in the end
 
 // Configuración emulador
 
-	$config['version_name'] = '0.1 Pandaria Bosses';
-	$config['emulador'] = 'Blazed WoW Emu 5.4.8';
+	$config['version_name'] = 'Jade Core';
+	$config['emulador'] = 'Jade Core EMU 5.4.8';
 
 
-/**
-* Lenguaje
-* es (Nativo) [Spanish Native Language]
-* en [Language English]
-* 
-*/
-
-      $language['language_config']  = 'spanish'; # es = spanish , en = english
 
 /**
 * Carpetas y ubicación
@@ -66,8 +58,17 @@
 // Botones de contacto !	
 
 	$web['jadeweb'] = true; #Show ac-web button
-	$web['jadelink'] = '/forums'; #http://ac-web.com/user/blabla
-	$web['jadeText'] = 'Comunidad JadePTR'; #Title of that button
+	$web['jadelink'] = 'https://github.com/sayghteight/JadeEmu-5.4.8'; #http://ac-web.com/user/blabla
+	$web['jadeText'] = 'Jade Core'; #Title of that button
+	
+	$web['jadeDB'] = true; #Show ac-web button
+	$web['jadeDBL'] = ''; #http://ac-web.com/user/blabla
+	$web['jadeDBText'] = 'Jade DB'; #Title of that button
+
+	
+	$web['sayghtpro'] = true; #Show ac-web button
+	$web['sayghtlink'] = ''; #http://ac-web.com/user/blabla
+	$web['sayghtText'] = 'Comunidad'; #Title of that button
 
 
 ?>

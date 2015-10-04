@@ -1,6 +1,6 @@
 <?php
 include('core/config/config.php');
-require("application/modules/language/config/language.php"); 
+include('application/modules/language/config/language.php'); 
 ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
@@ -111,12 +111,12 @@ require("application/modules/language/config/language.php");
 		<?php endif; ?>
 		<br /><br />
 		<div>
-			<?php if($acweb) : ?>
-			<a href="<?php echo $acLink; ?>" class="button button-red" target="_blank"><?php echo $acText; ?></a>
-			<?php endif; if($ownedcore) : ?>
-			<a href="<?php echo $owLink; ?>" class="button button-blue" target="_blank"><?php echo $owText; ?></a>
-			<?php endif; if($otherforum) : ?>
-			<a href="<?php echo $ofLink; ?>" class="button button-pink" target="_blank"><?php echo $ofText; ?></a></div>
+			<?php if($web['jadeweb']) : ?>
+			<a href="<?php echo ($web['jadelink']); ?>" class="button button-red" target="_blank"><?php echo ($web['jadeText']); ?></a>
+			<?php endif; if($web['jadeDB']) : ?>
+			<a href="<?php echo ($web['jadeDBL']); ?>" class="button button-red" target="_blank"><?php echo ($web['jadeDBText']); ?></a>
+			<?php endif; if($web['sayghtpro']) : ?>
+			<a href="<?php echo ($web['sayghtlink']); ?>" class="button button-pink" target="_blank"><?php echo ($web['sayghtText']); ?></a></div>
 			<?php endif; ?>
 		<!-- Please respect my work and time since i making this for free and do not remove my creadits. -->
 		<div class="copyrights">&copy; All Rights Reserved <?php echo date('Y'); ?><br /><span class="anteia">Codificación Sayghteight</span></div>

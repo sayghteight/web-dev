@@ -5,7 +5,6 @@
 |   [url=http://www.enlinealab.com]www.enlinealab.com[/url]                       |
 \*------------------------------------------*/
 session_start();
-include('../core/config/config.php');
 header('Cache-control: private'); // IE 6 FIX
  
 if(isSet($_GET['lang'])){
